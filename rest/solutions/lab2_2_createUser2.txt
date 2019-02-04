@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "firstName": "Igor",
+	"middleName":"Garcia",
+    "lastName": "Dean",
+    "email": "igor.dean@{{email-suffix}}",
+    "login": "igor.dean@{{email-suffix}}",
+    "title": "Security Engineer",
+    "department": "Information Security",
+    "division": "EMEA",
+	"costCenter":"Security"
+
+  },
+  "credentials": {
+    "password" : { "value": "Tra!nme4321" },
+    "recovery_question": {
+      "question": "What’s your favorite soccer team?",
+      "answer": "Barcelona"
+    }
+  }
+}

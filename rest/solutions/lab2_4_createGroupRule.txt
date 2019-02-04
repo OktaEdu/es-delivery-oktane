@@ -1,0 +1,25 @@
+{
+  "type": "group_rule",
+  "name": "Security rule",
+  "conditions": {
+	  "people": {
+        "users": {
+          "exclude": []
+        },
+        "groups": {
+          "exclude": []
+        }
+      },
+      "expression": {
+        "value": "user.costCenter==\"Security\"",
+        "type": "urn:okta:expression:1.0"
+      }
+    },
+  "actions": {
+    "assignUserToGroups": {
+      "groupIds": [
+        "{{groupId}}"
+      ]
+    }
+  }
+}

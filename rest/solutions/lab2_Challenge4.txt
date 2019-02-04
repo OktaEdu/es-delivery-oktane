@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "twitterUserName": "@jdoe",
+    "email": "john@{{email-suffix}}",
+    "login": "john@{{email-suffix}}"
+  },
+  "credentials": {
+    "password" : { "value": "Tra!nme4321" },
+    "recovery_question": {
+      "question": "What's the best food?",
+      "answer": "Ice Cream"
+    }
+  }
+} 

@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "firstName": "Isaac",
+    "lastName": "Brock",
+    "email": "isaac@{{email-suffix}}",
+    "login": "isaac@{{email-suffix}}",
+	"nickName": "IB",
+    "title": "Senior Engineer",
+    "department": "IT",
+    "division": "EMEA"
+
+  },
+  "credentials": {
+    "password" : { "value": "Tra!nme4321" },
+    "recovery_question": {
+      "question": "What’s your favorite soccer team?",
+      "answer": "Chelsea"
+    }
+  }
+}
